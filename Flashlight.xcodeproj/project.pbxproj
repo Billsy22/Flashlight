@@ -11,6 +11,7 @@
 		166C2DE52117DADB001B7D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166C2DE32117DADB001B7D90 /* Main.storyboard */; };
 		166C2DE72117DADC001B7D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166C2DE62117DADC001B7D90 /* Assets.xcassets */; };
 		166C2DEA2117DADC001B7D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166C2DE82117DADC001B7D90 /* LaunchScreen.storyboard */; };
+		166C2DF52117DE62001B7D90 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C2DF42117DE62001B7D90 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		166C2DE62117DADC001B7D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		166C2DE92117DADC001B7D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		166C2DEB2117DADC001B7D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166C2DF42117DE62001B7D90 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		166C2DF32117DCC4001B7D90 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				166C2DF42117DE62001B7D90 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				166C2DE02117DADB001B7D90 /* AppDelegate.swift in Sources */,
+				166C2DF52117DE62001B7D90 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ5N56B84J;
-				INFOPLIST_FILE = Flashlight/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Flashlight/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ5N56B84J;
-				INFOPLIST_FILE = Flashlight/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Flashlight/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

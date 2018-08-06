@@ -25,12 +25,12 @@ class MainViewController: UIViewController {
     @IBAction func toggleButtonTapped(_ sender: Any) {
         isOn = !isOn
         if isOn == true {
-            toggleButton.titleLabel?.text = "Turn Off"
-            toggleButton.titleLabel?.textColor = UIColor.black
+            toggleButton.setTitle("Turn Off", for: .normal)
+            toggleButton.setTitleColor(.black, for: .normal)
             self.view.backgroundColor = UIColor.white
         } else {
-            toggleButton.titleLabel?.text = "Turn On"
-            toggleButton.titleLabel?.textColor = UIColor.white
+            toggleButton.setTitle("Turn On", for: .normal)
+            toggleButton.setTitleColor(.white, for: .normal)
             self.view.backgroundColor = UIColor.black
         }
         print("Toggle Button Tapped Current State is \(isOn)")
